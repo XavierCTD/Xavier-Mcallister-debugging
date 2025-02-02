@@ -22,7 +22,7 @@ function getRandomNumber(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
 }
 
-function checkGuess() {
+funtion checkGuess() {
   // Get value from guess input element
   const guess = parseInt(guessInput.value, 10);
   attempts = attempts + 1;
